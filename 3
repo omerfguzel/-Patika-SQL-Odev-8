@@ -1,0 +1,22 @@
+-- 3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+UPDATE employee 
+SET name = 'Omer', email = 'omer@test.com', birthday = '1998-03-01'
+WHERE id = 25;
+
+UPDATE employee 
+SET id = 54, email = 'hedvig@test.com', birthday = '1998-03-01'
+WHERE name = 'Hedvig';
+
+UPDATE employee 
+SET name = 'Ahmet', email = 'ahmet@test.com', id = 55
+WHERE birthday = '1951-04-13';
+
+UPDATE employee 
+SET name = 'Khof', id = 56, birthday = '1944-08-11'
+WHERE email ='khof18@mail.ru';
+
+UPDATE employee 
+SET id = 57, email = 'elka@test.com', birthday = '2000-11-09'
+WHERE name = 'Elka';
+
+SELECT * FROM employee;
