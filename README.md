@@ -1,1 +1,1 @@
-# -Patika-SQL-Odev-8
+# Patika-SQL-Odev-8
